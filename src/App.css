@@ -29,10 +29,55 @@
 
 .card--container {
   margin: 0 auto;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   width: 470px;
   height: 168px;
+}
+
+.card--arrow{
+  width: 7px;
+  height: 10px;
+}
+
+.card--img{
+  width: 125px;
+  height: auto;
+  object-fit: cover;
+  margin-right: 19px;
+}
+
+.card--country{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.card--link{
+  color: #918E9B;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+
+.card--link:visited{
+  color: #918E9B;
+}
+
+.card--title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 7px;
+  margin-bottom: 14px;
 }
 
 .card--info{
@@ -47,4 +92,21 @@
   flex-direction: row;
   align-items: baseline;
   gap: 10px;
+}
+
+.card--date{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+  margin-bottom: 10px;
+}
+
+.card--desc{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
 }
