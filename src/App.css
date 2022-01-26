@@ -5,6 +5,7 @@
 .App {
   text-align: center;
   font-family: 'Inter';
+  margin: 0 auto;
 }
 
 .navbar--container{
@@ -24,4 +25,26 @@
 .navbar--text{
   margin-top: 20px;
   margin-left: 5px;
+}
+
+.card--container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 470px;
+  height: 168px;
+}
+
+.card--info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.card--location{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
 }
