@@ -6,10 +6,13 @@ import './App.css';
 function App() {
   const cardData = data.map(item => {
     return (
+      <div>
       <Card
         key={item.title}
         item={item}
       />
+      <hr></hr>
+      </div>
     )
   })
   return (
