@@ -9,7 +9,7 @@ export default function Card(props){
             <div className="card--info">
                 <div className="card--location">
                 <img className="card--arrow" alt="google maps arrow" src="./images/maps-arrow.png" />
-                <h3 className="card--country">{props.item.location}</h3> 
+                <h3 className="card--country">{props.item.location.toUpperCase()}</h3> 
                 <a className="card--link" href={`${props.item.googleMapsUrl}`}>View on Google Maps</a>
                 </div>
                 <h1 className="card--title">{props.item.title}</h1>

@@ -29,11 +29,17 @@
 
 .card--container {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 75px;
   display: flex;
   flex-direction: row;
   width: 470px;
   height: 168px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card--container:hover{
+  background-color:rgb(223, 181, 167);
 }
 
 .card--arrow{
@@ -116,5 +122,6 @@ hr{
   margin: 0 auto;
   display: block;
   width: 470px;
-  margin-top: 50px;
+  margin-top: 35px;
+  border-top: 1px solid silver;
 }
